@@ -18,6 +18,7 @@ footer{
 
 footer > section{
     margin-left: 5px;
+    color:#fcd612;
 }
 
 .text_info{
@@ -53,9 +54,4 @@ a{
 #movie_header, #release_date, #director, #stars {
     color:#D61A1F;
 }
-/*
-#release_date{
-    color: #D61A1F;
-}
-*/
 
