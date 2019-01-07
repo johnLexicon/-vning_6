@@ -7,6 +7,14 @@ body{
     font-size: 16px;
 }
 
+h4 {
+    margin-bottom: 1em;
+}
+
+iframe{
+    border-width: 0px;
+}
+
 #page {
     /*Takes available space to the left.*/
     margin-left: auto;
@@ -20,8 +28,6 @@ body{
     color: #d61a1f;
 }
 
-/*** Footer ***/
-
 footer{
     background-color: #d61a1f;
     height:50px;
@@ -30,7 +36,7 @@ footer{
     border-radius: 4px;
 }
 
-footer > section{
+footer > div{
     margin-left: 5px;
     color:#fcd612;
 }
