@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Montserrat:300');
+
 body{
     background-color: #f8b71d;
     /*Takes available space to the left.*/
@@ -5,8 +8,16 @@ body{
     /*Takes available space to the right.*/
     margin-right: auto;
     width:1100px;
-    font-family: 'Cinzel', serif;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
 }
+
+.red-cinzel {
+    font-family: 'Cinzel', serif;
+    color: #d61a1f;
+}
+
+/*** Footer ***/
 
 footer{
     background-color: #d61a1f;
@@ -51,7 +62,5 @@ a{
     color: #d61a1f;
 }
 
-#movie_header, #release_date, #director, #stars {
-    color:#D61A1F;
-}
+
 
